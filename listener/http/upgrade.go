@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/Dreamacro/clash/adapter/inbound"
-	N "github.com/Dreamacro/clash/common/net"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/transport/socks5"
+	"github.com/Autlin/core/adapter/inbound"
+	N "github.com/Autlin/core/common/net"
+	C "github.com/Autlin/core/constant"
+	"github.com/Autlin/core/transport/socks5"
 )
 
 func isUpgradeRequest(req *http.Request) bool {

@@ -8,8 +8,8 @@ import (
 	"github.com/docker/docker/api/types/container"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Dreamacro/clash/adapter/outbound"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/Autlin/core/adapter/outbound"
+	C "github.com/Autlin/core/constant"
 )
 
 func TestClash_Vmess(t *testing.T) {

@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Dreamacro/clash/common/pool"
-	"github.com/Dreamacro/clash/log"
-	"github.com/Dreamacro/clash/transport/shadowsocks/core"
-	"github.com/Dreamacro/clash/transport/ssr/tools"
+	"github.com/Autlin/core/common/pool"
+	"github.com/Autlin/core/log"
+	"github.com/Autlin/core/transport/shadowsocks/core"
+	"github.com/Autlin/core/transport/ssr/tools"
 )
 
 func init() {

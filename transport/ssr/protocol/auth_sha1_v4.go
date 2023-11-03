@@ -8,8 +8,8 @@ import (
 	"math/rand"
 	"net"
 
-	"github.com/Dreamacro/clash/common/pool"
-	"github.com/Dreamacro/clash/transport/ssr/tools"
+	"github.com/Autlin/core/common/pool"
+	"github.com/Autlin/core/transport/ssr/tools"
 )
 
 func init() {
